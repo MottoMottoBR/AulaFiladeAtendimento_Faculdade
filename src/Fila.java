@@ -5,8 +5,6 @@ import java.util.Scanner;
 
 public class Fila {
 
-
-
     public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);
         //Variavel
@@ -27,29 +25,32 @@ public class Fila {
         vaga[8] = "VAGA9";
         vaga[9] = "VAGA10";
 
-        System.out.println("Vagas Disponiveis \n" + Arrays.toString(vaga));
+        do{
 
+        System.out.println("Vagas Disponiveis \n" + Arrays.toString(vaga));
         System.out.print("Escolha uma vaga ");
         escolha = ler.nextLine().toUpperCase();
 
-        //chama a funçao de esolha das vagas
-        Check.exibiMsg(escolha,vaga);
+    Check.exibiMsg(escolha,vaga);
       System.out.println( "Adicionado com sucesso! ");
       System.out.println( "Fila atual de atendimento! ");
-      System.out.println( Arrays.toString(vaga));
 
-        System.out.println("Para adicionar ( 1 ) Remover ( 2 )  ");
+            System.out.println("Vagas Disponiveis \n" + Arrays.toString(vaga));
+
+      // System.out.println(Arrays.toString(vaga));
+      System.out.println("Para adicionar ( 1 ) Remover ( 2 )  ");
+
         sim = ler.nextInt();
-        if (sim == 1) {
             System.out.println("voce escolheu adicionar! ");
-            System.out.println("Fila atual \n" + Arrays.toString(vaga));
             System.out.print("Escolha uma vaga ");
             escolha = ler.nextLine().toUpperCase();
-
-            //chama a funçao de esolha das vagas
             Check.exibiMsg(escolha,vaga);
-            System.out.println("Fila atual \n" + Arrays.toString(vaga));
+            //chama a funçao de esolha das vagas
+
+        }while ( sim == 1);{
+            System.out.print("Programa finalizado");
         }
+
 
     }
 
