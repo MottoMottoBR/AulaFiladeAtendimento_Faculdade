@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d7bd04d2-f10a-44a6-b16f-c41268b306f4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Fila.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fila.java" afterDir="false" />
-    </list>
+    <list default="true" id="d7bd04d2-f10a-44a6-b16f-c41268b306f4" name="Changes" comment="Atualização do while" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,6 +66,14 @@
       <option name="presentableId" value="Default" />
       <updated>1666027744983</updated>
     </task>
+    <task id="LOCAL-00001" summary="Atualização do while">
+      <created>1667572327599</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667572327599</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -81,6 +86,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Atualização do while" />
+    <option name="LAST_COMMIT_MESSAGE" value="Atualização do while" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
